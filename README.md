@@ -8,14 +8,17 @@ Polling locations are input as coordinates, and the program will create a
 Voronoi diagram of the points using Fortune's sweep algorithm and stored
 as a Doubly Connected Edge List (DCEL).
 
-* Version: 1.0
+* Version: 1.0.0
 
 ### How do I get set up? ###
 
-* For a quick demo, run fortune/algorithm/fortune.py module. Choose either random data or 
-Wabasha County polling location data to run on.
+* This is written as a package, so the file 'fortune' must be added to the paths
+used by Python to to run natively.
 
-* Packages used: Numpy, Math, Bisect (For O(log(n)) lookup in ordered list).
+
+* Otherwise, you can run the stand alone executable "Voronoi Executable"
+
+* Packages used: Numpy, Math.
 
 * Data is a set of points hard coded into the fortune.py module.
 
